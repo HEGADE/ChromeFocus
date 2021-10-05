@@ -1,0 +1,60 @@
+:root {
+  --common-color: #4fff96;
+  --border-color: #00a2ff;
+  --border-color2: #00a2ff;
+  --inner-container:#4F5C4E;
+}
+body {
+  background-color: #313e49;
+  font-family: "Montserrat", sans-serif !important;
+  width: 400px;
+  height: 500px;
+}
+h4 {
+  font-size: x-large;
+  color: var(--common-color);
+  display: block;
+  text-align: center;
+  padding: 0.1rem;
+}
+.option_holder {
+  display: flex;
+  justify-content: center;
+}
+.option_holder button {
+  margin: 0.4rem;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif !important;
+  color: var(--common-color);
+  border-radius: 10000px;
+  background: #2e2e2e;
+  border: none;
+}
+.add_site_focused{
+  display: none;
+  width: 90%;
+  border-radius: .2rem;
+  margin: 1rem;
+  /* background-color: var(--inner-container); */
+  height: 70%;
+  border: 2.3px solid hsl(0, 3%, 39%);
+}
+.option_holder .add_site {
+
+  border: 2px solid var(--border-color);
+  padding: 0.4rem 1.2rem;
+}
+.option_holder .focused_sites {
+ 
+
+  border: 2px solid var(--border-color2);
+  padding: 0.4rem 0.7rem;
+}
+.add_site_container{
+  width: 90%;
+  border-radius: .2rem;
+  margin: 1rem;
+  background-color: var(--inner-container);
+  height: 70%;
+  border: 2.3px solid hsl(0, 3%, 39%);
+}

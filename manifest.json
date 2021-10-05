@@ -1,0 +1,12 @@
+
+  {
+    "manifest_version": 3,
+    "name": "ChromeFocus",
+    "version": "1.0.0",
+    "description": "Focus mode on chrome",
+    "action": {
+      "default_popup": "index.html"
+    
+    }
+
+  }
