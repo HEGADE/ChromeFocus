@@ -42,6 +42,7 @@ h4 {
 .option_holder .add_site {
 
   border: 2px solid var(--border-color);
+  border: 2px solid red;
   padding: 0.4rem 1.2rem;
 }
 .option_holder .focused_sites {
@@ -52,9 +53,42 @@ h4 {
 }
 .add_site_container{
   width: 90%;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
   border-radius: .2rem;
   margin: 1rem;
   background-color: var(--inner-container);
   height: 70%;
   border: 2.3px solid hsl(0, 3%, 39%);
+}
+.add_site_container input{
+  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.335));
+
+  outline: none;
+  border-radius: .2rem;
+  border: none;
+  font-weight: 800;
+  padding: .8rem;
+  width: 70%;
+  font-family: "Montserrat", sans-serif !important;
+
+}
+.add_site_container .button{
+
+  font-family: "Montserrat", sans-serif !important;
+font-weight: 600;
+padding: .5rem;
+width: 47%;
+text-align: center;
+border-radius: .2rem;
+background: #0077ff;
+filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.335));
+color: white;
+cursor: pointer;
+
 }

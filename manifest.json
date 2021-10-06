@@ -4,9 +4,20 @@
     "name": "ChromeFocus",
     "version": "1.0.0",
     "description": "Focus mode on chrome",
+    "permissions": [
+      "storage"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        
+        "js": ["contentS.js"]
+      }
+    ],
     "action": {
       "default_popup": "index.html"
     
     }
+  
 
   }
