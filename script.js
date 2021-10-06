@@ -9,7 +9,6 @@ let addButton = document.getElementById("addSiteButton");
 let siteUrl = document.getElementById("siteUrl");
 let sitesToDisplay = document.getElementById("site_list");
 let siteUrlArray = [];
-
 const addSite = "Add site";
 chrome.tabs.query({ active: true, lastFocusedWindow: true }, (tabs) => {
   let url = tabs[0].url;
@@ -26,8 +25,11 @@ Array.from(functionalButtons).forEach((ele) => {
       e.currentTarget.style.border = "2.3px solid red";
       showOrHide(true);
       chrome.storage.local.get("key", function (result) {
-        if (!result?.key) return;
-          result.key.forEach((site) => {
+        if (!result?.key) {
+          sitesToDisplay.innerHTML=`<h3 style="display:block;text-align:center;margin-left:-3rem">Nothing is here</h3>`
+          return
+        };
+        result.key.forEach((site) => {
           let li = document.createElement("li");
           li.innerText = site;
           sitesToDisplay.append(li);
@@ -53,8 +55,10 @@ addButton.addEventListener("click", (e) => {
       siteUrlArray.push(siteUrl.value);
     }
 
-    LocalStore.setItem(siteUrlArray);
-    alert("Added site to focused list");
+    if (confirm("Do you really wanna block this site")) {
+      LocalStore.setItem(siteUrlArray);
+      alert("Added site to focused list");
+    }
     // for page refreshing page
     chrome.tabs.query(
       { active: true, currentWindow: true },

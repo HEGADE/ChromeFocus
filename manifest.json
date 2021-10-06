@@ -1,27 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "ChromeFocus",
+  "version": "1.0.0",
+  "description": "Focus mode on chrome",
+  "icons": {
+    "128": "focus.png"
+  },
+  "permissions": ["storage", "activeTab", "tabs"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
 
-  {
-    "manifest_version": 3,
-    "name": "ChromeFocus",
-    "version": "1.0.0",
-    "description": "Focus mode on chrome",
-    "permissions": [
-      "storage",
-      "activeTab",
-      "tabs"
-    ],
-    "content_scripts": [
-      {
-        "matches": ["<all_urls>"],
-        
-        "js": ["contentS.js"]
-      }
-    ],
-  
-   
-    "action": {
-      "default_popup": "index.html"
-    
+      "js": ["contentS.js"]
     }
-  
+  ],
 
+  "action": {
+    "default_popup": "index.html"
   }
+}
