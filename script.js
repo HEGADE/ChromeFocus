@@ -13,7 +13,9 @@ let siteDataObj = {};
 const addSite = "Add site";
 const key = "ninja";
 const value = "ninja1";
+let so=  LocalStore.getItem()
 
+  
 Array.from(functionalButtons).forEach((ele) => {
   ele.addEventListener("click", (e) => {
     if (e.currentTarget.innerText === addSite) {
@@ -33,20 +35,23 @@ function showOrHide(determine) {
   siteContainer.style.display = determine ? "none" : "flex";
   focusedContainer.style.display = determine ? "flex" : "none";
 }
-addButton.addEventListener ("click", async(e) => {
+addButton.addEventListener ("click", (e) => {
   // siteUrlArray.push(LocalStore.getItem());
   // siteUrlArray.push(siteUrl.value);
 
   // LocalStore.setItem(siteUrlArray);
-  await chrome.storage.sync.get("key", async function (result) {
-    let so=await LocalStore.getItem()
-    alert(so)
-    // siteUrlArray=[...result.key];
+   chrome.storage.sync.get("key", async function (result) {
+//  console.log(result)
+    siteUrlArray.push(...result.key)
+    // console.log("my arr",siteUrlArray)
     // siteUrlArray.push(siteUrl.value);
     // siteUrlArray=[...result.key];
     // siteUrlArray.push(siteUrl.value);
 
   });
-  // siteUrlArray.push(siteUrl.value)
-  // LocalStore.setItem(siteUrlArray);
+  console.log("my arr1",siteUrlArray)
+  siteUrlArray.push(siteUrl.value)
+  console.log("my arr2",siteUrlArray)
+
+  LocalStore.setItem(siteUrlArray);
 });
