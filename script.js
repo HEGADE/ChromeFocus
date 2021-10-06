@@ -1,5 +1,5 @@
 import LocalStore from "./localstore.js";
-import retrive from "./contentS.js"
+
 let focusedSiteButton = document.querySelector(".focused_sites");
 let functionalButtons = document.getElementsByTagName("button");
 let addSiteButton = document.querySelector(".add_site");
