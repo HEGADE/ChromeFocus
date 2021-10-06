@@ -6,7 +6,8 @@
     "description": "Focus mode on chrome",
     "permissions": [
       "storage",
-      "activeTab"
+      "activeTab",
+      "tabs"
     ],
     "content_scripts": [
       {
@@ -15,6 +16,8 @@
         "js": ["contentS.js"]
       }
     ],
+  
+   
     "action": {
       "default_popup": "index.html"
     
