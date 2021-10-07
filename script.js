@@ -37,10 +37,13 @@ Array.from(functionalButtons).forEach((ele) => {
       e.currentTarget.style.border = redBorder;
       showOrHide(true);
       chrome.storage.local.get("key", function (result) {
-        if (!result?.key) {
+        if (!result?.key?.length>0) {
+          alert(result?.key?.length)
+          alert(result?.key)
           sitesToDisplay.innerHTML = info;
           return;
         }
+        
         result.key.forEach((site) => {
           let li = document.createElement("li");
           li.innerText = site;
