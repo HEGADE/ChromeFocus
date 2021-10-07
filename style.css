@@ -54,6 +54,7 @@ h4 {
 .add_site_focused ul li {
   width: 100%;
   list-style: none;
+  cursor: pointer;
   margin: 11px 0.8rem 11px -1.3rem;
   color: white;
   font-size: 1rem;

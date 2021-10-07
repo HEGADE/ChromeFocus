@@ -25,12 +25,14 @@ chrome.tabs.query({ active: true, lastFocusedWindow: true }, (tabs) => {
 
 // Buttons logic goes here
 Array.from(functionalButtons).forEach((ele) => {
+  
   ele.addEventListener("click", (e) => {
     if (e.currentTarget.innerText === addSite) {
       focusedSiteButton.style.border = blueBorder;
       e.currentTarget.style.border = redBorder;
       showOrHide(false);
     } else {
+      sitesToDisplay.innerHTML=""
       addSiteButton.style.border = blueBorder;
       e.currentTarget.style.border = redBorder;
       showOrHide(true);
@@ -53,11 +55,9 @@ Array.from(functionalButtons).forEach((ele) => {
 // For removing sites
 function removeSite(e) {
   let siteToRemove = e.currentTarget.innerText;
-  e.currentTarget.style.display="none"
+  e.currentTarget.style.display = "none";
   chrome.storage.local.get({ key: [] }, (result) => {
     LocalStore.setItem(result.key.filter((e) => e !== siteToRemove));
-    alert("Site removed")
-    
   });
 }
 function showOrHide(determine) {
