@@ -1,7 +1,5 @@
 export default class LocalStore {
   static setItem(value) {
-    console.log("vlaues", value);
-
     chrome.storage.local.set({ key: value }, () => {
       console.log("Stored name: " + value);
     });
