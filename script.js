@@ -25,25 +25,24 @@ chrome.tabs.query({ active: true, lastFocusedWindow: true }, (tabs) => {
 
 // Buttons logic goes here
 Array.from(functionalButtons).forEach((ele) => {
-  
   ele.addEventListener("click", (e) => {
     if (e.currentTarget.innerText === addSite) {
       focusedSiteButton.style.border = blueBorder;
       e.currentTarget.style.border = redBorder;
       showOrHide(false);
     } else {
-      sitesToDisplay.innerHTML=""
+      sitesToDisplay.innerHTML = "";
       addSiteButton.style.border = blueBorder;
       e.currentTarget.style.border = redBorder;
       showOrHide(true);
       chrome.storage.local.get("key", function (result) {
-        if (!result?.key?.length>0) {
-          alert(result?.key?.length)
-          alert(result?.key)
+        if (!result?.key?.length > 0) {
+          alert(result?.key?.length);
+          alert(result?.key);
           sitesToDisplay.innerHTML = info;
           return;
         }
-        
+
         result.key.forEach((site) => {
           let li = document.createElement("li");
           li.innerText = site;
