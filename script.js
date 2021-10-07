@@ -53,9 +53,11 @@ Array.from(functionalButtons).forEach((ele) => {
 // For removing sites
 function removeSite(e) {
   let siteToRemove = e.currentTarget.innerText;
+  e.currentTarget.style.display="none"
   chrome.storage.local.get({ key: [] }, (result) => {
     LocalStore.setItem(result.key.filter((e) => e !== siteToRemove));
     alert("Site removed")
+    
   });
 }
 function showOrHide(determine) {
