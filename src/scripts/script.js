@@ -1,4 +1,4 @@
-import LocalStore from "./localstore.js";
+import LocalStore from "./localstore";
 
 // Dom elements
 let focusedSiteButton = document.querySelector(".focused_sites");
@@ -37,8 +37,7 @@ Array.from(functionalButtons).forEach((ele) => {
       showOrHide(true);
       chrome.storage.local.get("key", function (result) {
         if (!result?.key?.length > 0) {
-          alert(result?.key?.length);
-          alert(result?.key);
+         
           sitesToDisplay.innerHTML = info;
           return;
         }
