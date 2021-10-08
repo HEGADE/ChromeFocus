@@ -1,4 +1,4 @@
-17501
+17509
 62D:\ChromeFocus\node_modules\@parcel\core\lib\CommittedAsset.js132781678089380000 0
 52D:\ChromeFocus\node_modules\lodash\fp\isArrayLike.js132616313548090000 0
 27D:\ChromeFocus\package.json132781719228987896 0
@@ -10,7 +10,7 @@
 41D:\ChromeFocus\node_modules\is-descriptor132781708349932802 1
 98D:\ChromeFocus\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc-multiple132781678089380000 0
 75D:\ChromeFocus\node_modules\cssstyle\lib\properties\backgroundAttachment.js132781678259020000 0
-19D:\ChromeFocus\dist132781735086502424 1
+19D:\ChromeFocus\dist132781745281615536 1
 62D:\ChromeFocus\node_modules\highlight.js\lib\languages\leaf.js132781678251420000 0
 25D:\ChromeFocus\.gitignore132781717562582774 0
 45D:\ChromeFocus\node_modules\is-glob\README.md132781678148770000 0
@@ -143,7 +143,7 @@
 40D:\ChromeFocus\src\scripts\localstore.js132781713196000000 0
 49D:\ChromeFocus\node_modules\browserslist\index.js132781678132190000 0
 47D:\ChromeFocus\node_modules\merge2\package.json132616314067279998 0
-36D:\ChromeFocus\src\scripts\script.js132781733578905124 0
+36D:\ChromeFocus\src\scripts\script.js132781745237928543 0
 36D:\ChromeFocus\node_modules\lowlight132781708351062784 1
 72D:\ChromeFocus\node_modules\http-proxy-middleware\dist\config-factory.js132781678145530000 0
 79D:\ChromeFocus\node_modules\jsdom\lib\jsdom\living\events\KeyboardEvent-impl.js132781678241650000 0
@@ -1832,6 +1832,7 @@
 50D:\ChromeFocus\node_modules\color-convert\route.js132616314286000000 0
 53D:\ChromeFocus\node_modules\reusify\benchmarks\fib.js132616314400500000 0
 44D:\ChromeFocus\node_modules\base-x\README.md132781678136350000 0
+37D:\ChromeFocus\dist\index.42eebce4.js132781745281555486 0
 42D:\ChromeFocus\node_modules\to-object-path132781708356522788 1
 58D:\ChromeFocus\node_modules\process-nextick-args\readme.md132616314214140000 0
 73D:\ChromeFocus\node_modules\stylehacks\node_modules\.bin\browserslist.cmd132781719226197923 0
@@ -2411,7 +2412,7 @@
 50D:\ChromeFocus\node_modules\is-symbol\package.json132699755412840000 0
 55D:\ChromeFocus\node_modules\core-js\es\instance\sort.js132781678178990000 0
 44D:\ChromeFocus\node_modules\prebuild-install132781719225627915 1
-41D:\ChromeFocus\dist\scripts\localstore.js132781735086432422 0
+41D:\ChromeFocus\dist\scripts\localstore.js132781740262809964 0
 73D:\ChromeFocus\node_modules\uncss\node_modules\postcss\lib\lazy-result.js132781678186070000 0
 59D:\ChromeFocus\node_modules\core-js\es\instance\trim-end.js132781678178990000 0
 68D:\ChromeFocus\node_modules\fast-glob\out\providers\filters\error.js132781678149890000 0
@@ -3187,7 +3188,7 @@
 49D:\ChromeFocus\node_modules\ws\lib\buffer-util.js132781678147270000 0
 82D:\ChromeFocus\node_modules\uncss\node_modules\postcss-selector-parser\LICENSE-MIT132781678236020000 0
 64D:\ChromeFocus\node_modules\es-abstract\2017\IsDataDescriptor.js132781678268840000 0
-33D:\ChromeFocus\dist\manifest.json132781711309790000 0
+33D:\ChromeFocus\dist\manifest.json132781739146360939 0
 47D:\ChromeFocus\node_modules\safe-buffer\LICENSE132616314210769998 0
 47D:\ChromeFocus\node_modules\ws\lib\constants.js132781678147270000 0
 40D:\ChromeFocus\node_modules\nice-try\src132781708369132847 1
@@ -4808,6 +4809,7 @@
 47D:\ChromeFocus\node_modules\regex-not\README.md132616313944860000 0
 91D:\ChromeFocus\node_modules\parse5\lib\extensions\location-info\open-element-stack-mixin.js132781678260410000 0
 70D:\ChromeFocus\node_modules\svgo\plugins\removeUselessStrokeAndFill.js132781678165340000 0
+41D:\ChromeFocus\dist\index.026e561a.js.map132781740285210768 0
 61D:\ChromeFocus\node_modules\svgo\plugins\removeXMLProcInst.js132781678165340000 0
 61D:\ChromeFocus\node_modules\es-abstract\2019\SameValueZero.js132781678268840000 0
 92D:\ChromeFocus\node_modules\sharp\vendor\8.10.6\include\freetype2\freetype\config\ftconfig.h132612604640000000 0
@@ -5857,7 +5859,7 @@
 61D:\ChromeFocus\node_modules\highlight.js\styles\nnfx-dark.css132781678251420000 0
 82D:\ChromeFocus\node_modules\sharp\vendor\8.10.6\include\libgsf-1\gsf\gsf-outfile.h132612604640000000 0
 46D:\ChromeFocus\node_modules\ecc-jsbn\README.md132616314450330000 0
-41D:\ChromeFocus\dist\index.a7ac98c7.js.map132781735086492371 0
+41D:\ChromeFocus\dist\index.a7ac98c7.js.map132781740181658602 0
 58D:\ChromeFocus\node_modules\lmdb-store\src\compression.cpp132781678224410000 0
 86D:\ChromeFocus\node_modules\sharp\vendor\8.10.6\include\libgsf-1\gsf\gsf-output-bzip.h132612604640000000 0
 77D:\ChromeFocus\node_modules\nanomatch\node_modules\is-extendable\package.json132616314217220000 0
@@ -7217,6 +7219,7 @@
 47D:\ChromeFocus\node_modules\lodash\fp\padEnd.js132616313548090000 0
 53D:\ChromeFocus\node_modules\prebuild-install\asset.js132781710777260000 0
 45D:\ChromeFocus\node_modules\@types\http-proxy132781708344103026 1
+37D:\ChromeFocus\dist\index.ab086440.js132781741591097297 0
 57D:\ChromeFocus\node_modules\prebuild-install\CHANGELOG.md132781710777260000 0
 56D:\ChromeFocus\node_modules\prebuild-install\download.js132781710777260000 0
 78D:\ChromeFocus\node_modules\caniuse-lite\data\features\font-variant-numeric.js132781678186390000 0
@@ -7280,7 +7283,7 @@
 75D:\ChromeFocus\node_modules\core-js\modules\esnext.array.find-last-index.js132781678178990000 0
 62D:\ChromeFocus\node_modules\highlight.js\lib\languages\llvm.js132781678251420000 0
 66D:\ChromeFocus\node_modules\posthtml-parser\test\test-core.spec.ts132781678182770000 0
-26D:\ChromeFocus\dist\assets132781735086152446 1
+26D:\ChromeFocus\dist\assets132781740260579929 1
 62D:\ChromeFocus\node_modules\@parcel\core\lib\InternalConfig.js132781678089380000 0
 37D:\ChromeFocus\node_modules\jsesc\bin132781708367602823 1
 74D:\ChromeFocus\node_modules\jsdom\lib\jsdom\living\generated\FocusEvent.js132781678241650000 0
@@ -9951,7 +9954,7 @@
 49D:\ChromeFocus\node_modules\entities\package.json132616314398780000 0
 62D:\ChromeFocus\node_modules\lodash\_matchesStrictComparable.js132616313548090000 0
 61D:\ChromeFocus\node_modules\@parcel\reporter-cli\src\utils.js132781678089310000 0
-30D:\ChromeFocus\dist\index.html132781735086442410 0
+30D:\ChromeFocus\dist\index.html132781745281555486 0
 48D:\ChromeFocus\node_modules\lodash\_mergeData.js132616313548090000 0
 63D:\ChromeFocus\node_modules\is-shared-array-buffer\CHANGELOG.md132781678269530000 0
 49D:\ChromeFocus\node_modules\lodash\_nativeKeys.js132616313548090000 0
@@ -12612,7 +12615,7 @@
 50D:\ChromeFocus\node_modules\call-bind\package.json132616313836770000 0
 69D:\ChromeFocus\node_modules\es-abstract\2021\IsUnsignedElementType.js132781678268840000 0
 77D:\ChromeFocus\node_modules\caniuse-lite\data\features\input-file-multiple.js132781678186390000 0
-43D:\ChromeFocus\dist\scripts\contentS.js.map132781735086282406 0
+43D:\ChromeFocus\dist\scripts\contentS.js.map132781740278649409 0
 56D:\ChromeFocus\node_modules\es-abstract\2021\MakeDate.js132781678268840000 0
 55D:\ChromeFocus\node_modules\es-abstract\2021\MakeDay.js132781678268840000 0
 56D:\ChromeFocus\node_modules\es-abstract\2021\MakeTime.js132781678268840000 0
@@ -17471,6 +17474,7 @@
 41D:\ChromeFocus\node_modules\.bin\uuid.cmd132781719227917901 0
 38D:\ChromeFocus\node_modules\.bin\which132781719227958124 0
 31D:\ChromeFocus\dist\contentS.js132781712379525497 0
+37D:\ChromeFocus\dist\index.026e561a.js132781740285170740 0
 37D:\ChromeFocus\dist\index.0494a359.js132781728902731532 0
 41D:\ChromeFocus\dist\index.121bae58.js.map132781714504868146 0
 37D:\ChromeFocus\dist\index.1463aa5e.js132781725037078735 0
@@ -17480,23 +17484,27 @@
 38D:\ChromeFocus\dist\index.1f695cda.css132781714504798162 0
 42D:\ChromeFocus\dist\index.1f695cda.css.map132781714504868146 0
 37D:\ChromeFocus\dist\index.2ed648f9.js132781726361685665 0
-38D:\ChromeFocus\dist\index.5372a97e.css132781719462261722 0
-42D:\ChromeFocus\dist\index.5372a97e.css.map132781719462301851 0
+41D:\ChromeFocus\dist\index.42eebce4.js.map132781745281615536 0
+38D:\ChromeFocus\dist\index.5372a97e.css132781740285170740 0
+42D:\ChromeFocus\dist\index.5372a97e.css.map132781740285210768 0
 41D:\ChromeFocus\dist\index.58a21bbc.js.map132781727565412162 0
 41D:\ChromeFocus\dist\index.5995fb35.js.map132781731290834785 0
+37D:\ChromeFocus\dist\index.63865e99.js132781743361107548 0
+41D:\ChromeFocus\dist\index.63865e99.js.map132781743361137577 0
 38D:\ChromeFocus\dist\index.68697716.css132781712393977691 0
 42D:\ChromeFocus\dist\index.68697716.css.map132781712394027701 0
 41D:\ChromeFocus\dist\index.700d5424.js.map132781712394027701 0
 41D:\ChromeFocus\dist\index.849b6a7f.js.map132781711991923007 0
 42D:\ChromeFocus\dist\index.8e0184e2.css.map132781710887886509 0
-37D:\ChromeFocus\dist\index.a7ac98c7.js132781735086442410 0
+37D:\ChromeFocus\dist\index.a7ac98c7.js132781740181618595 0
+41D:\ChromeFocus\dist\index.ab086440.js.map132781741591167269 0
 37D:\ChromeFocus\dist\index.e54c4829.js132781728299071952 0
 41D:\ChromeFocus\dist\index.e54c4829.js.map132781728299091965 0
-27D:\ChromeFocus\dist\scripts132781735086492371 1
-41D:\ChromeFocus\dist\scripts\background.js132781735086242430 0
-45D:\ChromeFocus\dist\scripts\background.js.map132781735086282406 0
-39D:\ChromeFocus\dist\scripts\contentS.js132781735086242430 0
-45D:\ChromeFocus\dist\scripts\localstore.js.map132781735086462366 0
-37D:\ChromeFocus\dist\scripts\script.js132781731797858542 0
-41D:\ChromeFocus\dist\scripts\script.js.map132781731797898408 0
-36D:\ChromeFocus\dist\assets\focus.png132781735086122427 0
+27D:\ChromeFocus\dist\scripts132781745281615536 1
+41D:\ChromeFocus\dist\scripts\background.js132781740269159979 0
+45D:\ChromeFocus\dist\scripts\background.js.map132781740269179902 0
+39D:\ChromeFocus\dist\scripts\contentS.js132781740278629247 0
+45D:\ChromeFocus\dist\scripts\localstore.js.map132781740262829907 0
+37D:\ChromeFocus\dist\scripts\script.js132781745281525405 0
+41D:\ChromeFocus\dist\scripts\script.js.map132781745281585363 0
+36D:\ChromeFocus\dist\assets\focus.png132781740260559933 0

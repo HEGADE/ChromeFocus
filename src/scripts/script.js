@@ -37,7 +37,6 @@ Array.from(functionalButtons).forEach((ele) => {
       showOrHide(true);
       chrome.storage.local.get("key", function (result) {
         if (!result?.key?.length > 0) {
-         
           sitesToDisplay.innerHTML = info;
           return;
         }
@@ -76,11 +75,11 @@ addButton.addEventListener("click", (e) => {
 
     if (confirm("Do you really wanna block this site")) {
       LocalStore.setItem(siteUrlArray);
-      alert("Added site to focused list");
+      notify({ title: "Added", message: "Site added to focus mode" });
     }
 
     // For page refreshing page
-    refresh()
+    refresh();
     return;
   });
 });
@@ -92,4 +91,13 @@ function refresh() {
       chrome.tabs.reload(arrayOfTabs[0].id);
     }
   );
+}
+function notify({ title, message }) {
+  chrome.notifications.create("NOTFICATION_ID", {
+    type: "basic",
+    iconUrl: "../assets/focus.png",
+    title,
+    message,
+    priority: 2,
+  });
 }
