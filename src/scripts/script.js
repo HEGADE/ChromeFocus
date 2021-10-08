@@ -80,12 +80,16 @@ addButton.addEventListener("click", (e) => {
     }
 
     // For page refreshing page
-    chrome.tabs.query(
-      { active: true, currentWindow: true },
-      function (arrayOfTabs) {
-        chrome.tabs.reload(arrayOfTabs[0].id);
-      }
-    );
+    refresh()
     return;
   });
 });
+
+function refresh() {
+  chrome.tabs.query(
+    { active: true, currentWindow: true },
+    function (arrayOfTabs) {
+      chrome.tabs.reload(arrayOfTabs[0].id);
+    }
+  );
+}
