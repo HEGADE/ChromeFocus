@@ -2,11 +2,11 @@
 ### it is a chrome extension that is used for blocking specific  site 
 
 # `Installation of modules`
-```js
+```javascript
   yarn or yarn install  
    
 ```
 # `Building the app`
-```js
+```javascript
  yarn run build
 ```
