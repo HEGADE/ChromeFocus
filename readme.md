@@ -6,7 +6,8 @@ The concept app is same as focus mode in
 android, but with less features 😅.
 You can add any site of your wish ,after
 adding that site, it will not let you to access that site(content of the site  will not be present)
-<hr/>
+<hr>
+
 ## Note
 This app is in  working condition and more features are in development stage,
 pls consider to contribute😎.
