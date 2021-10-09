@@ -3,7 +3,7 @@
 
 # `Installation of modules`
 ```javascript
-  yarn  
+  yarn or yarn install  
    
 ```
 # `Building the app`
